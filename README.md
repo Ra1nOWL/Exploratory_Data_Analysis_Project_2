@@ -7,7 +7,7 @@ Fine particulate matter (PM2.5) is an ambient air pollutant for which there is s
 For each year and for each type of PM source, the NEI records how many tons of PM2.5 were emitted from that source over the course of the entire year. The data that you will use for this assignment are for 1999, 2002, 2005, and 2008.
 
 ## Data
-PM2.5 Emissions Data (\color{red}{\verb|summarySCC_PM25.rds|}summarySCC_PM25.rds): This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. 
+PM2.5 Emissions Data `summarySCC_PM25.rds)`: This file contains a data frame with all of the PM2.5 emissions data for 1999, 2002, 2005, and 2008. For each year, the table contains number of tons of PM2.5 emitted from a specific type of source for the entire year. 
 
 1. `fips`: A five-digit number (represented as a string) indicating the U.S. county
 2. `SCC`: The name of the source as indicated by a digit string (see source code classification table)
@@ -16,6 +16,6 @@ PM2.5 Emissions Data (\color{red}{\verb|summarySCC_PM25.rds|}summarySCC_PM25.rds
 5. `type`: The type of source (point, non-point, on-road, or non-road)
 6. `year`: The year of emissions recorded
 
-Source Classification Code Table (\color{red}{\verb|Source_Classification_Code.rds|}Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
+Source Classification Code Table `Source_Classification_Code.rds)`: This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
-You can read each of the two files using the \color{red}{\verb|readRDS()|}readRDS() function in R. 
+You can read each of the two files using the `readRDS()` function in R. 
